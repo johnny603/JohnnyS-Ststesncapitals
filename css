@@ -1,0 +1,34 @@
+html, body {
+  background-color: grey;
+}
+
+
+
+table, th, td {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 5px;
+}
+
+th {
+  background-color: green;
+  transition: 0.3s;
+}
+
+td {
+  background-color: teal;
+}
+
+th:hover {
+  background-color: red;
+}
+
+td:hover {
+  background-color: yellow;
+}
+
+
+  
